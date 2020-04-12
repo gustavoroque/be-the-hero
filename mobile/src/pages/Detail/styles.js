@@ -11,7 +11,8 @@ export default StyleSheet.create({
   header: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    alignItems: 'center'
+    alignItems: 'center',
+    marginBottom: 48,
   },
 
   incident:{
@@ -19,7 +20,7 @@ export default StyleSheet.create({
     borderRadius: 8,
     backgroundColor: '#FFF',
     marginBottom: 16,
-    marginTop: 48,
+    marginTop: 16,
   },
 
   incidentProperty: {
